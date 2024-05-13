@@ -2,7 +2,14 @@
     "rewrites": [
         {
             "source": "/vercel-hello-world/:path*",
-            "destination": "https://rangho-vercel-hello-world.vercel.app/:path*"
+            "destination": "https://rangho-vercel-hello-world.vercel.app/:path*",
+            "permanent": false
+        },
+        {
+            "source": "*",
+            "destination": "https://rangho.dev/",
+            "permanent": false,
+            "statusCode": 301
         }
     ]
 }
