@@ -7,9 +7,8 @@
     ],
     "redirects": [
         {
-            "source": "*",
-            "destination": "https://rangho.dev",
-            "permanent": false
+            "source": "/",
+            "destination": "https://rangho.dev"
         }
     ]
 }
