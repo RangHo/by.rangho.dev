@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/vercel-hello-world/:path*",
+            "destination": "https://rangho-vercel-hello-world.vercel.app/:path*"
+        }
+    ]
+}
