@@ -3,6 +3,10 @@
         {
             "source": "/vercel-hello-world/:path*",
             "destination": "https://rangho-vercel-hello-world.vercel.app/:path*"
+        },
+        {
+            "source": "/jumpstart/:path*",
+            "destination": "https://rangho-jumpstart.vercel.app/api/:path*"
         }
     ],
     "redirects": [
