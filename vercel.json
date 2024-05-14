@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/vercel-hello-world/:path*",
-            "destination": "https://rangho-vercel-hello-world.vercel.app/:path*"
+            "destination": "https://rangho-vercel-hello-world.vercel.app/api/:path*"
         },
         {
             "source": "/jumpstart/:path*",
