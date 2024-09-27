@@ -1,18 +1,22 @@
 {
-    "rewrites": [
-        {
-            "source": "/vercel-hello-world/:path*",
-            "destination": "https://rangho-vercel-hello-world.vercel.app/api/:path*"
-        },
-        {
-            "source": "/jumpstart/:path*",
-            "destination": "https://rangho-jumpstart.vercel.app/api/:path*"
-        }
-    ],
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "https://rangho.dev"
-        }
-    ]
+  "rewrites": [
+    {
+      "source": "/vercel-hello-world/:path*",
+      "destination": "https://rangho-vercel-hello-world.vercel.app/api/:path*"
+    },
+    {
+      "source": "/jumpstart/:path*",
+      "destination": "https://rangho-jumpstart.vercel.app/api/:path*"
+    },
+    {
+      "source": "/repository/:path*",
+      "destination": "https://rangho-repository.netlify.app/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://rangho.dev"
+    }
+  ]
 }
