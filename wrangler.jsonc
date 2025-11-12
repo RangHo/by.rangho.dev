@@ -1,0 +1,20 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "by-rangho-dev",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-11-11",
+	"observability": {
+		"enabled": true
+	},
+	"workers_dev": false,
+	"routes": [
+		{
+			"pattern": "by.rangho.dev",
+			"custom_domain": true
+		}
+	]
+}
