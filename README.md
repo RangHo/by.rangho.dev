@@ -9,7 +9,7 @@ A `GET` request to the root directory (`https://by.rangho.dev/`) redirects to th
 ## List of rewrites
 
 | Target                                                            | Repository                                               | Description                                                      |
-|-------------------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------------|
+| ----------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------- |
 | [`/vercel-hello-world`](https://by.rangho.dev/vercel-hello-world) | [![badge]](https://github.com/RangHo/vercel-hello-world) | Vercel version of "Hello, world!" application.                   |
 | [`/jumpstart`](https://by.rangho.dev/jumpstart)                   | [![badge]](https://github.com/RangHo/jumpstart)          | Small, composable configurations for provisioning Fedora CoreOS. |
 | [`/repository`](https://by.rangho.dev/repository)                 | [![badge]](https://github.com/RangHo/repository)         | Personal package repository.                                     |
